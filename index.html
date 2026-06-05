@@ -1,49 +1,28 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="robots" content="noindex,nofollow"/>
-<title>Horizon Menu canvases · Horizon Menu</title>
-<style>
-:root {
-  --bg: #ffffff; --surface: #ffffff; --text: #1a1a1a; --text-secondary: #5a5a5a;
-  --stroke: #e2e2e2; --accent: #1F8A65; --row-alt: #f6f7f8;
-}
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>Horizon Menu canvases · Horizon Menu</title><style>
+:root { --bg:#fff; --text:#1a1a1a; --text-secondary:#5a5a5a; --stroke:#e2e2e2; --accent:#1F8A65; --row-alt:#f6f7f8; }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, sans-serif;
-  font-size: 14px; line-height: 1.5; }
-.cv-wrap { max-width: 1100px; margin: 0 auto; padding: 32px 24px 80px; }
-.cv-h1 { font-size: 24px; font-weight: 700; margin: 0; }
-.cv-h2 { font-size: 18px; font-weight: 650; margin: 0; }
-.cv-h3 { font-size: 15px; font-weight: 600; margin: 0; }
-.cv-table { border-collapse: collapse; width: 100%; font-size: 12px; }
-.cv-table th, .cv-table td { padding: 6px 8px; border-bottom: 1px solid var(--stroke); white-space: nowrap; }
-.cv-table th { font-weight: 600; color: var(--text-secondary); border-bottom: 2px solid var(--stroke); }
-.cv-striped tbody tr:nth-child(odd) { background: var(--row-alt); }
-.cv-topbar { background: #0f1115; color: #fff; padding: 10px 24px; font-size: 13px; }
-.cv-topbar a { color: #8fd3bf; text-decoration: none; }
-.cv-topbar a:hover { text-decoration: underline; }
-.cv-foot { max-width: 1100px; margin: 0 auto; padding: 24px; color: var(--text-secondary); font-size: 12px; border-top: 1px solid var(--stroke); }
-</style>
-</head><body>
-<div class="cv-topbar">Horizon Menu · Segment attribute distributions</div>
-<div class="cv-wrap">
+body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,sans-serif; font-size:14px; line-height:1.5; }
+.cv-wrap { max-width:1200px; margin:0 auto; padding:32px 24px 80px; }
+.cv-h1 { font-size:24px; font-weight:700; margin:0; }
+.cv-h2 { font-size:18px; font-weight:650; margin:0; }
+.cv-h3 { font-size:15px; font-weight:600; margin:0; }
+.cv-table { border-collapse:collapse; width:100%; font-size:12px; }
+.cv-table th,.cv-table td { padding:6px 8px; border-bottom:1px solid var(--stroke); white-space:nowrap; }
+.cv-table th { font-weight:600; color:var(--text-secondary); border-bottom:2px solid var(--stroke); }
+.cv-striped tbody tr:nth-child(odd) { background:var(--row-alt); }
+.cv-topbar { background:#0f1115; color:#fff; padding:10px 24px; font-size:13px; }
+.cv-topbar a { color:#8fd3bf; text-decoration:none; }
+.cv-topbar a:hover { text-decoration:underline; }
+.cv-foot { max-width:1200px; margin:0 auto; padding:24px; color:var(--text-secondary); font-size:12px; border-top:1px solid var(--stroke); }
+</style></head><body><div class="cv-topbar">Horizon Menu · Segment attribute distributions</div><div class="cv-wrap">
 <h1 class="cv-h1">Horizon Menu — Segment Attribute Distributions</h1>
-<p style="color:var(--text-secondary);max-width:760px">How each Nordics customer segment’s actual recipe selections split across menu attributes. DK + SE, weeks 2025-W31 to 2025-W52, Standard core recipes. Each page has three nested segment layers, stacked or penetration bars, an over/under-index heatmap, and a precise matrix table.</p>
-<div class="grid"><a class="card" href="./dish-type.html"><div class="card-title">Dish Type Distribution</div><div class="card-blurb">How each segment’s recipe selections split across all 25 dish types.</div></a>
-<a class="card" href="./recipe-region.html"><div class="card-title">Recipe Region Distribution</div><div class="card-blurb">Split across the six recipe regions (European, Asian, American, …).</div></a>
+<p style="color:var(--text-secondary);max-width:760px">How each Nordics customer segment’s actual recipe selections split across menu attributes. DK + SE, weeks 2025-W31 to 2026-W22, Standard core recipes.</p>
+<div class="grid"><a class="card" href="./segment-over-index.html"><div class="card-title">Segment Over-Index (Step 1)</div><div class="card-blurb">Over/under-index across all menu dimensions, with share matrices and an index heatmap per dimension.</div></a>
+<a class="card" href="./dish-type.html"><div class="card-title">Dish Type Distribution</div><div class="card-blurb">Share split across all 25 dish types.</div></a>
+<a class="card" href="./recipe-region.html"><div class="card-title">Recipe Region Distribution</div><div class="card-blurb">Split across the six recipe regions.</div></a>
 <a class="card" href="./recipe-sub-region.html"><div class="card-title">Recipe Sub-Region Distribution</div><div class="card-blurb">Split across the 14 recipe sub-regions.</div></a>
-<a class="card" href="./cuisine.html"><div class="card-title">Cuisine Penetration</div><div class="card-blurb">Penetration of 29 national cuisines (overlapping tags).</div></a>
+<a class="card" href="./cuisine.html"><div class="card-title">Cuisine Penetration</div><div class="card-blurb">Penetration of 29 national cuisines (overlapping).</div></a>
 <a class="card" href="./protein.html"><div class="card-title">Protein Distribution</div><div class="card-blurb">Split across six protein groups.</div></a>
 <a class="card" href="./starch.html"><div class="card-title">Starch Distribution</div><div class="card-blurb">Split across nine starch groups.</div></a>
 <a class="card" href="./lifestyle-concepts.html"><div class="card-title">Lifestyle Concept Penetration</div><div class="card-blurb">Penetration of lifestyle concepts (overlapping).</div></a></div>
-<style>
-.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap:14px; margin-top:20px; }
-.card { display:block; border:1px solid var(--stroke); border-radius:8px; padding:16px; text-decoration:none; color:var(--text); }
-.card:hover { border-color: var(--accent); }
-.card-title { font-weight:650; font-size:15px; margin-bottom:6px; }
-.card-blurb { color:var(--text-secondary); font-size:13px; }
-</style></div>
-<div class="cv-foot">Internal HelloFresh analytics · DK + SE · 2025 W31–W52 · Generated from Cursor canvases. Do not distribute externally.</div>
-</body></html>
+<style>.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:20px;}.card{display:block;border:1px solid var(--stroke);border-radius:8px;padding:16px;text-decoration:none;color:var(--text);}.card:hover{border-color:var(--accent);}.card-title{font-weight:650;font-size:15px;margin-bottom:6px;}.card-blurb{color:var(--text-secondary);font-size:13px;}</style></div><div class="cv-foot">Internal HelloFresh analytics · DK + SE · 2025 W31–2026 W22 · Generated from Cursor canvases. Do not distribute externally.</div></body></html>
